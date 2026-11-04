@@ -1,0 +1,56 @@
+{
+  "name": "runapi-ai/muse-video",
+  "description": "RunAPI Muse Video Composer package for PHP applications",
+  "type": "library",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "RunAPI",
+      "email": "contact@runapi.ai"
+    }
+  ],
+  "require": {
+    "php": ">=8.2",
+    "runapi-ai/core": "^0.10.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "RunApi\\MuseVideo\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "RunApi\\MuseVideo\\Tests\\": "tests/",
+      "RunApi\\Core\\Tests\\": "tests/Support/CoreTests/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-main": "0.1.x-dev"
+    }
+  },
+  "minimum-stability": "stable",
+  "homepage": "https://runapi.ai/models/muse-video",
+  "support": {
+    "source": "https://github.com/runapi-ai/muse-video-php",
+    "docs": "https://runapi.ai/docs/resources/sdks",
+    "issues": "https://github.com/runapi-ai/muse-video-php/issues"
+  },
+  "keywords": [
+    "runapi",
+    "runapi-ai",
+    "php",
+    "composer",
+    "sdk",
+    "api",
+    "packagist",
+    "muse-video",
+    "muse-video-api"
+  ],
+  "require-dev": {
+    "phpunit/phpunit": "^11.5"
+  },
+  "scripts": {
+    "test": "phpunit -c phpunit.xml.dist"
+  }
+}
